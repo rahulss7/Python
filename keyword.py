@@ -84,3 +84,36 @@ else:
     print(f"this is wrong. /n The right answer is {ram}")
 
 
+# None Keyword 
+
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Alice")
+
+
+
+def ajay(name):
+    print(f"Hi,${name}$")
+ajay("Rahul")
+
+
+def Rahul(name):
+    print(f"Hello , ${name}") 
+Rahul("Rahul")
+
+def Raj(int):
+    print(f"Good Morning , ${int}")
+Raj("24")
+
+
+def Aj(number):
+    print(f"Hello , {number}%")
+Aj("22") 
+
+def Airtel(number):
+    print(f"Hello , {number}$")
+Airtel("14")
+
+
+
