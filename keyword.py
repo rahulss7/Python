@@ -125,3 +125,50 @@ async def main():
 asyncio.run(main())
 
 
+
+#Break & Continue 
+
+for i in range(1,11):
+    if i == 5:
+        break
+    print(i)
+
+for i in range(1,15):
+       if i == 8:
+        break
+       print(i)
+
+
+
+       #Continue 
+
+for i in range(1,11):
+    if i == 5:
+        continue
+    print(i) 
+
+for i in range(1,8):
+    if i == 4:
+     continue
+    print(i)
+
+    for k in range(1,12):
+        if k == 4:
+         continue
+        print(k)
+
+
+        # We can replace i in any alphabet what you want...
+
+
+    for aj in range(1,8):
+     if aj == 4:
+       continue
+     print(aj)
+    
+
+
+for Airtel in range(1, 8):
+    if Airtel == 4:
+        continue
+    print(Airtel)
