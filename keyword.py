@@ -6,8 +6,6 @@ if ram:
 else:
     print("False")
 
-
-
 yogesh  = 1 == 12
 if yogesh:
     print("True")
@@ -28,14 +26,11 @@ if ram1 == 158:
 else:
     print("False")
 
-
-
 ram2 = 11 / 12
 if ram2 == 141:
     print("True")
 else:
     print("False")
-
 
 ram3 = 11 / 12
 
@@ -49,8 +44,6 @@ if ram4 == 145:
     print("True")
 else:
     print(f"this is wrong answer. /n The correct answer is {ram4}")
-
-
 
 # WORD 
 
@@ -72,8 +65,6 @@ if ram == raj:
 else:
   print(f"this is wrong. /n The right answer is {ram}") 
 
-
-
 raj = "value"
 rajesh = "value1"
 ram = raj == rajesh
@@ -83,7 +74,6 @@ if ram:
 else:
     print(f"this is wrong. /n The right answer is {ram}")
 
-
 # None Keyword 
 
 def greet(name):
@@ -91,12 +81,9 @@ def greet(name):
 
 greet("Alice")
 
-
-
 def ajay(name):
     print(f"Hi,${name}$")
 ajay("Rahul")
-
 
 def Rahul(name):
     print(f"Hello , ${name}") 
@@ -106,7 +93,6 @@ def Raj(int):
     print(f"Good Morning , ${int}")
 Raj("24")
 
-
 def Aj(number):
     print(f"Hello , {number}%")
 Aj("22") 
@@ -115,5 +101,27 @@ def Airtel(number):
     print(f"Hello , {number}$")
 Airtel("14")
 
+# Assert 
+
+import asyncio
+async def main():
+    print('Hello')
+    await asyncio.sleep(1)
+    print('world')
+asyncio.run(main())
+
+import asyncio
+async def main():
+    print('Aj')
+    await asyncio.sleep(3)
+    print('Airtel')
+asyncio.run(main())
+
+import asyncio
+async def main():
+    print('Tony')
+    await asyncio.sleep(1)
+    print('Stark')
+asyncio.run(main())
 
 
