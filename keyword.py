@@ -165,10 +165,27 @@ for i in range(1,8):
      if aj == 4:
        continue
      print(aj)
-    
-
 
 for Airtel in range(1, 8):
     if Airtel == 4:
         continue
     print(Airtel)
+
+# class program are same as opp concept 
+
+# def is a user define fun .. But del is also used to delete items from a list or a dictionary so see that example below :  
+
+
+a = ['x','y','z']
+del a[1]
+print(a)
+
+i = ['a','b','c','d']
+del i[3]
+print(i)
+
+aj = ['a','j','love','A','i','r','t','e','l']
+del aj[2]
+print(aj)
+
+
