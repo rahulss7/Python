@@ -189,3 +189,45 @@ del aj[2]
 print(aj)
 
 
+
+# If Else  Program 
+
+percentage = float(input("Enter your percentage: "))
+
+if percentage >= 90:
+    grade = 'A'
+elif percentage >= 80:
+    grade = 'B'
+elif percentage >= 70:
+    grade = 'C'
+elif percentage >= 60:
+    grade = 'D'
+else:
+    grade = 'F'
+
+print(f'Your grade is {grade}')
+
+
+hello = int(input('enter number not a float value :'))
+if hello <= 80:
+     grade = 'f'
+else:
+   grade = 'p'
+print(f'hello {grade}')
+
+
+# Simple program to classify a character
+
+# Input a character
+char = input("Enter a character: ")
+
+# Check if it's an uppercase letter
+if char.isupper():
+    print(f"{char} is an uppercase letter.")
+# Check if it's a lowercase letter
+elif char.islower():
+    print(f"{char} is a lowercase letter.")
+# If it's not a letter, print a message
+else:
+    print(f"{char} is not a letter.")
+
